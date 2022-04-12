@@ -1,0 +1,12 @@
+/* pages/group/group.wxss */
+.newBuildGroupBtn{
+
+    
+}
+
+.hr{
+    border: 2rpx solid #cccccc;
+    width: 90%;
+    margin: 0 auto;
+    opacity: 0.3;
+  }

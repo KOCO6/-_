@@ -1,0 +1,35 @@
+{
+  "pages":[
+    
+    "pages/group/group",
+    "pages/personal/personal",
+    "pages/posts/posts",
+    "pages/home/home",
+    "pages/create/create"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "逗拌酱",
+    "navigationBarTextStyle":"black"
+    
+  },
+  "tabBar": {
+    "list": [
+    {
+      "pagePath": "pages/group/group",
+      "text": "讨论组",
+      "iconPath": "/images/message.png",
+      "selectedIconPath": "/images/message-active.png"
+    },{
+      "pagePath": "pages/personal/personal",
+      "text": "我的",
+      "iconPath": "/images/contact.png",
+      "selectedIconPath": "/images/contact-active.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

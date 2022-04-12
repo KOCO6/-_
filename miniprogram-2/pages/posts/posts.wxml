@@ -1,0 +1,6 @@
+<!--pages/posts/posts.wxml-->
+<!-- <view>
+    <view>{{detail.group}}</view>
+    <view>{{detail.title}}</view>
+    <view>{{detail.likes}}</view>
+</view> -->

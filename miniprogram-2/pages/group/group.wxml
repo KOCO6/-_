@@ -1,0 +1,28 @@
+<!--pages/group/group.wxml-->
+<!-- <text>pages/group/group.wxml</text> -->
+<view>我加入的小组</view>
+
+<button class="newBuildGroupBtn" bindtap="gotoCreate" size="mini" >新建小组</button>
+<view class="hr"></view>
+
+<view>
+
+
+<!-- 点击帖子，跳转到帖子详情页 gotoGroup -->
+    <view class="2" bindtap="gotoGroup" data-item="{{item}}">
+        <view>小组</view>
+    </view>
+    <!-- 点击小组，跳转到小组详情页 gotoPosts -->
+    <view class="1" bindtap="gotoPosts" data-item="{{item}}">
+        <view>帖子</view>
+    </view>
+    <!-- 点击用户，跳转到用户详情页 gotoPersonal -->
+    <view class="3" bindtap="gotoPersonal" data-item="{{item}}">
+        <text>用户首页</text>
+    </view>
+    <view>
+        
+    </view>
+    <view class="hr"></view>
+</view>
+

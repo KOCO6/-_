@@ -1,0 +1,11 @@
+{
+  "usingComponents": {},
+  "window":{
+    "navigationBarTitleText": "逗拌酱",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#efefef",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": "true"
+  }
+
+}

@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  Weixin
+</view> -->
+
+<view class="section">
+  <view class="section_title">flex-direction: row</view>
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    <view class="flex-item bc_blue">3</view>
+  </view>
+</view>
+
+<!-- <view class="section">
+  <view class="section_title">flex-direction: column</view>
+  <view class="flex-wrp" style="height: 300px;flex-direction:column;">
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    <view class="flex-item bc_blue">3</view>
+  </view>
+</view> -->
+
+<button type="primary" bindtap="btnTapHandler">按钮</button>
+
+<view>
+  <progress percent="20" show-info ></progress>
+  <progress percent="40" stroke-width="12" show-info></progress>
+  <progress percent="60" color="pink" show-info ></progress>
+  <progress percent="80" show-info="80%" active ></progress>
+  <!-- show-info 显示百分比20%；stroke-width宽度增加；color颜色；active动态的 -->
+  
+ 
+  
+  
+
+</view>
